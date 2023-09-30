@@ -1,4 +1,4 @@
-// Primeros pasos con el Proyecto
+// Primeros pasos con el Proyecto carrito de compras
 
 // variables 
 const carrito = document.querySelector('#carrito');
@@ -82,6 +82,7 @@ function leerDatosCurso(curso) {
     }
     console.log(articulosCarrito);
     carritoHTML();
+}
 
     // Muestra el carrito de compras en el HTML
     function carritoHTML() {
@@ -104,7 +105,7 @@ function leerDatosCurso(curso) {
             contenedorCarrito.appendChild(row);
         })
     }
-}
+
 
 // Elimina los cursos del tbody
 function limpiarHTML() {
